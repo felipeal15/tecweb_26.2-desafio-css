@@ -30,24 +30,26 @@ body {
 }
 
 /*1*/
+
 .appbar {
   display: flex;
   align-items: center;
+  min-height: 60px;
   background-color: #f7d736;
-  padding: 20px 40px;
+  padding: 1px 5px;
   box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16), 0 -1px 0px rgba(0, 0, 0, 0.02);
   position: relative;
   z-index: 1;
 }
  
 .logo {
-  height: 72px;
+  height: 40px;
   width: auto;
-  margin-right: 24px;
+  margin-right: 12px;
 }
  
 .subtitle {
-  font-size: 20px;
+  font-size: 15px;
   color: #2c2c2c;
 }
 
@@ -62,6 +64,9 @@ body {
   align-items: center;
 }
 
+
+
+ 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 /* .btn {
