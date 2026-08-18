@@ -64,6 +64,103 @@ body {
   align-items: center;
 }
 
+/*3*/
+
+/* ===== Formulário ===== */
+.form-card {
+  box-sizing: border-box;
+  width: 572px;
+  max-width: 100%;
+  padding: 12px 11px 11px;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: #ffffff;
+  border-radius: 5px;
+  /* Sombra: https://codepen.io/sdthornton/pen/wBZdXq */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.form-card-title {
+  padding: 0;
+  border: none;
+  outline: none;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  color: #4c4c4c;
+}
+
+.form-card textarea {
+  box-sizing: border-box;
+  height: 18px;
+  padding: 0;
+  border: none;
+  outline: none;
+  resize: none;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #4c4c4c;
+}
+
+/* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
+.btn {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
+  background-color: #f7d736;
+  color: #2c2c2c;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.btn > * {
+  position: relative;
+}
+
+.btn:before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  display: block;
+  width: 0;
+  padding-top: 0;
+
+  border-radius: 100%;
+
+  background-color: rgba(236, 240, 241, 0.3);
+
+  transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+  width: 200%;
+  padding-top: 200%;
+
+  transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+}
+
 
 
  
