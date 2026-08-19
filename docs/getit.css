@@ -170,17 +170,14 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  /* espalha os cards ao longo da linha, inclusive na ultima */
   justify-content: space-evenly;
-  /* o vao vertical precisa ser maior que o horizontal porque a rotacao
-     joga os cantos do card para fora da caixa dele */
-  gap: 48px 28px;
-  margin-top: 50px;
+  gap: 40px 24px;
 }
 
 .card {
-  width: 260px;
-  padding: 24px;
+  box-sizing: border-box;
+  width: 244px;
+  padding: 12px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -194,7 +191,7 @@ body {
 .card-content p {
   font-family: "Permanent Marker", cursive;
   font-size: 15px;
-  line-height: 1.4;
+  line-height: 1.25;
 }
 
 .card-color-1 {
