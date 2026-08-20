@@ -5,7 +5,7 @@ NOME DOS INTEGRANTES:
 - Felipe Aldrighi de Lima
 - Rodrigo Buniac
 - Haim Missrie
-- Link do GitHub Pages: COLOQUE O LINK AQUI 
+- Link do GitHub Pages: https://felipeal15.github.io/tecweb_26.2-desafio-css/
 
 ## Desafio CSS
 
